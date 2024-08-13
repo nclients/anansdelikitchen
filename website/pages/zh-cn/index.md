@@ -302,11 +302,11 @@ footer:
   paymentMethod: "mastercard,cash,visa" # alipay,applePay,cash,discover,googlePay,jcb,maestro,mastercard,stripe,unionPay,visa,weChatPay,payPal
 
   # at a minimum, please make sure to include the meta description.
-  seo:
-    metaDescription: "发现位于旧金山的 AnAn's Deli Kitchen 安安麵食，体验卓越的用餐享受。快來餐廳品嚐，现在就在線下單吧！" 
-    keywords: ""
-    img: ""
-    thisPageUrl: ""
-    locale: "zh_TW" # zh_TW | zh_CN
+seo:
+  metaDescription: "歡迎來到AnAn's Deli Kitchen 安安麵食，您在舊金山外里士滿街區享用正宗美味中餐的首選目的地。我們專注於提供高品質手工菜餚，採用最優質的食材，提供舒適的用餐體驗，無論是拉麵、餃子還是甜點，我們都致力於為您提供美味佳餚。"
+  keywords: ""
+  img: ""
+  thisPageUrl: ""
+  locale: "zh_TW" # zh_TW | zh_CN
 ---
 <!-- hello world -->

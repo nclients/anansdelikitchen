@@ -66,7 +66,8 @@ sections:
     bgColor: "#000000"
     bgOpacity: "0.35" # 0~1
     title: 
-      - "AnAn's Deli Kitchen 安安麵食"
+      - "AnAn's Deli Kitchen"
+      - "安安麵食"
     titleColor: "#ffffff"
     description: 
       - "Noodles, Ramen, Soup."
@@ -243,7 +244,7 @@ sections:
     iframeUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.432834153359!2d-122.4960347242445!3d37.77989497198408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808587633b67090b%3A0x9d63275356723aab!2sAnAn&#39;s%20Deli%20Kitchen!5e0!3m2!1sen!2sjp!4v1722891668538!5m2!1sen!2sjp"
     addTelBtn: true
     tel: ""
-    telInsteadText: ""
+    telInsteadText: "Tel: 628-588-2246"
     tel2: "" # if there are two phone numbers
     tel2InsteadText: ""
     getDirectionBtnInsteadText: ""
@@ -301,11 +302,12 @@ footer:
   paymentMethod: "" # alipay,applePay,cash,discover,googlePay,jcb,maestro,mastercard,stripe,unionPay,visa,weChatPay,payPal
 
   # at a minimum, please make sure to include the meta description.
-  seo:
-    metaDescription: "Discover AnAn's Deli Kitchen in San Francisco for an exceptional dining experience. Explore our authentic menu and order online now! " 
-    keywords: ""
-    img: ""
-    thisPageUrl: ""
-    locale: "en_US" # zh_TW | zh_CN
+# optional
+seo:
+  metaDescription: "Welcome to AnAn's Deli Kitchen, your top destination for authentic and delicious Chinese food in the Richmond District of San Francisco. We specialize in high-quality handcrafted dishes made with the finest ingredients, providing a comfortable dining experience. Whether you're here to enjoy ramen, dumplings, or desserts, we are committed to delivering delightful meals."
+  keywords: ""
+  img: ""
+  thisPageUrl: ""
+  locale: "en_US" # zh_TW | zh_CN
 ---
 <!-- hello world -->
