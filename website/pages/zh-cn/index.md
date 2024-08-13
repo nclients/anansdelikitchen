@@ -2,15 +2,15 @@
 layout: "ssg-theme-astro/layouts/main.astro"  # This line of code should remain unchanged.
 tag: "GTM-"
 title: "AnAn's Deli Kitchen 安安麵食 - Best Food Today"
-favicon: "logo.svg"
-logo: "logo.svg"
-primaryColor: "#D1D5D4" # logo color
-secondaryColor: "#000000"
-primaryColorScheme: "light" # dark | light
-secondaryColorScheme: "dark"
+favicon: "logo.ico"
+logo: "logo.png"
+primaryColor: "#C2232E" # logo color
+secondaryColor: ""
+primaryColorScheme: "dark" # dark | light
+secondaryColorScheme: ""
 cuid: ""
 ruid: ""
-orderOnlineLink: "https://onlineorder.bestfood.today/Restaurant/details/MTAwNDI="
+orderOnlineLink: "https://www.bestfoodtodayus.com/ordering/?restaurant_uid=229221c8-8e50-4b68-9841-f77b2b1a5d6e"
 tableReservationLink: ""
 tel: "628-588-2246"
 
@@ -27,9 +27,10 @@ tel: "628-588-2246"
 
 # header
 header:
-  logoSize: 45
+  logoSize: 90
+  logoSizeOnMobile: 75
   textAfterLogo: 
-    text: "AnAn's Deli Kitchen 安安麵食"
+    text: ""
     size: 20
     color: "#000000"
   bgColor: "#ffffff"
@@ -49,7 +50,7 @@ header:
   telTextColor: "#000000"
 
   otherBtn1InsteadText: "在線訂餐"
-  otherBtn1Href: "https://onlineorder.bestfood.today/Restaurant/details/MTAwNDI="
+  otherBtn1Href: "https://www.bestfoodtodayus.com/ordering/?restaurant_uid=229221c8-8e50-4b68-9841-f77b2b1a5d6e"
   otherBtn2InsteadText: ""
   otherBtn2Href: ""
 
@@ -83,8 +84,8 @@ sections:
     addTableReservationBtn: false
     tableReservationBtnInsteadText: ""
 
-    btn1Text: ""
-    btn1Href: "" 
+    btn1Text: "在線訂餐"
+    btn1Href: "https://www.bestfoodtodayus.com/ordering/?restaurant_uid=229221c8-8e50-4b68-9841-f77b2b1a5d6e" 
     btn2Text: "" 
     btn2Href: "" 
 
@@ -206,30 +207,29 @@ sections:
 
 
 
-# # textBlock 
-#   - type: "textBlock" 
-#     id: "about-us"
-#     bgImg: ""
-#     bgColor: ""
-#     bgOpacity: "" # 0~1
-#     title: 
-#       - "About Us"
-#     titleColor: "#000000"
-#     description: 
-#       - "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-#       - "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+# textBlock 
+  - type: "textBlock" 
+    id: "about-us"
+    bgImg: ""
+    bgColor: ""
+    bgOpacity: "" # 0~1
+    title: 
+      - "關於我們"
+    titleColor: "#000000"
+    description: 
+      - "歡迎來到AnAn's Deli Kitchen 安安麵食，這裡是您在舊金山外里士滿街區享用正宗美味中餐的首選目的地。位於 Geary Blvd 6900 號，我們專注於各種傳統菜餚。我們熱衷於提供採用最優質食材製成的高品質手工菜餚。我們乾淨溫馨的空間旨在為您提供舒適的用餐體驗，您可以在這裡享用我們的美味佳餚。無論您是來品嚐一碗豐盛的拉麵、美味的餃子還是甜點，我們都致力於為您提供美味佳餚。"
 #     descriptionColor: "#000000"
 
 # textBlock - Information
   - type: "textBlock" 
     noMarginTop: false
     id: ""
-    bgImg: "Spices 3 辣妹子 - Best Food Today.webp"
-    bgImgAlt: "gallery/豬腩拉麵 Japanese Slow Cook Pork Ramen.webp"
+    bgImg: "/拿鐵奶咖啡 Latte Coffee.webp"
+    bgImgAlt: "拿鐵奶咖啡 Latte Coffee.webp"
     bgColor: "#000"
-    bgOpacity: "1" # 0~1
+    bgOpacity: "0.6" # 0~1
     title: 
-      - "NEW! Online Ordering"
+      - "新功能！在線訂餐"
     titleColor: "#ffffff"
     description: 
       - "現在支援線上訂單自取。只要告訴我們您想要的菜餚，我們會​​盡快準備好。所有訂單都由我們手動確認。您可以即時查看您的食物何時準備好。訂單狀態會即時更新，您可以在螢幕上查看您的食物何時可以取走。"
@@ -244,7 +244,7 @@ sections:
     iframeUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.432834153359!2d-122.4960347242445!3d37.77989497198408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808587633b67090b%3A0x9d63275356723aab!2sAnAn&#39;s%20Deli%20Kitchen!5e0!3m2!1sen!2sjp!4v1722891668538!5m2!1sen!2sjp"
     addTelBtn: true
     tel: ""
-    telInsteadText: ""
+    telInsteadText: "電話：628-588-2246"
     tel2: "" # if there are two phone numbers
     tel2InsteadText: ""
     getDirectionBtnInsteadText: "導航去餐廳"
@@ -276,7 +276,7 @@ footer:
 
   openingHoursInsteadText: "營業時間"
   openingHours: 
-    - "週一 ～ 週日 11:00 AM - 8:45 PM"
+    - "週一 ～ 週日：11:00 AM - 8:45 PM"
   isLogo: false
   logoSize: 60
  
@@ -298,12 +298,12 @@ footer:
   yelp: false
   yelpLink: ""
 
-  acceptedPaymentMethodsInsteadText: ""
-  paymentMethod: "" # alipay,applePay,cash,discover,googlePay,jcb,maestro,mastercard,stripe,unionPay,visa,weChatPay,payPal
+  acceptedPaymentMethodsInsteadText: "支付方式"
+  paymentMethod: "mastercard,cash,visa" # alipay,applePay,cash,discover,googlePay,jcb,maestro,mastercard,stripe,unionPay,visa,weChatPay,payPal
 
   # at a minimum, please make sure to include the meta description.
   seo:
-    metaDescription: "发现位于旧金山的 AnAn's Deli Kitchen 安安麵食，体验卓越的用餐享受。快來餐廳品嚐，现在就在线下單吧！" 
+    metaDescription: "发现位于旧金山的 AnAn's Deli Kitchen 安安麵食，体验卓越的用餐享受。快來餐廳品嚐，现在就在線下單吧！" 
     keywords: ""
     img: ""
     thisPageUrl: ""

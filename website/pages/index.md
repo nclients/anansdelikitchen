@@ -2,15 +2,15 @@
 layout: "ssg-theme-astro/layouts/main.astro"  # This line of code should remain unchanged.
 tag: "GTM-"
 title: "AnAn's Deli Kitchen 安安麵食 - Best Food Today"
-favicon: "logo.svg"
-logo: "logo.svg"
-primaryColor: "#D1D5D4" # logo color
-secondaryColor: "#000000"
-primaryColorScheme: "light" # dark | light
-secondaryColorScheme: "dark"
+favicon: "logo.ico"
+logo: "logo.png"
+primaryColor: "#C2232E" # logo color
+secondaryColor: ""
+primaryColorScheme: "dark" # dark | light
+secondaryColorScheme: ""
 cuid: ""
 ruid: ""
-orderOnlineLink: "https://onlineorder.bestfood.today/Restaurant/details/MTAwNDI="
+orderOnlineLink: "https://www.bestfoodtodayus.com/ordering/?restaurant_uid=229221c8-8e50-4b68-9841-f77b2b1a5d6e"
 tableReservationLink: ""
 tel: "628-588-2246"
 
@@ -27,9 +27,10 @@ tel: "628-588-2246"
 
 # header
 header:
-  logoSize: 45
+  logoSize: 95
+  logoSizeOnMobile: 75
   textAfterLogo: 
-    text: "AnAn's Deli Kitchen 安安麵食"
+    text: ""
     size: 20
     color: "#000000"
   bgColor: "#ffffff"
@@ -49,7 +50,7 @@ header:
   telTextColor: "#000000"
 
   otherBtn1InsteadText: "See MENU & Order"
-  otherBtn1Href: "https://onlineorder.bestfood.today/Restaurant/details/MTAwNDI="
+  otherBtn1Href: "https://www.bestfoodtodayus.com/ordering/?restaurant_uid=229221c8-8e50-4b68-9841-f77b2b1a5d6e"
   otherBtn2InsteadText: ""
   otherBtn2Href: ""
 
@@ -83,8 +84,8 @@ sections:
     addTableReservationBtn: false
     tableReservationBtnInsteadText: ""
 
-    btn1Text: ""
-    btn1Href: "" 
+    btn1Text: "Online Oder"
+    btn1Href: "https://www.bestfoodtodayus.com/ordering/?restaurant_uid=229221c8-8e50-4b68-9841-f77b2b1a5d6e" 
     btn2Text: "" 
     btn2Href: "" 
 
@@ -206,19 +207,18 @@ sections:
 
 
 
-# # textBlock 
-#   - type: "textBlock" 
-#     id: "about-us"
-#     bgImg: ""
-#     bgColor: ""
-#     bgOpacity: "" # 0~1
-#     title: 
-#       - "About Us"
-#     titleColor: "#000000"
-#     description: 
-#       - "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-#       - "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-#     descriptionColor: "#000000"
+# textBlock 
+  - type: "textBlock" 
+    id: "about-us"
+    bgImg: ""
+    bgColor: ""
+    bgOpacity: "" # 0~1
+    title: 
+      - "About Us"
+    titleColor: "#000000"
+    description: 
+      - "Welcome to AnAn's Deli Kitchen 安安麵食, your top destination for authentic and delicious Chinese food in the Richmond District of San Francisco. Located at 6900 Geary Blvd, we specialize in a variety of traditional dishes. We are dedicated to providing high-quality handcrafted dishes made with the finest ingredients. Our clean and cozy space is designed to offer you a comfortable dining experience where you can enjoy our delicious offerings. Whether you're here to savor a hearty bowl of ramen, tasty dumplings, or desserts, we are committed to delivering delightful meals for you."
+    descriptionColor: "#000000"
 
 # textBlock - Information
   - type: "textBlock" 
@@ -275,7 +275,7 @@ footer:
 
   openingHoursInsteadText: ""
   openingHours: 
-    - "Mon - Sun 11:00 AM - 8:45 PM"
+    - "Mon - Sun: 11:00 AM - 8:45 PM"
   isLogo: false
   logoSize: 60
  
