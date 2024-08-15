@@ -2,10 +2,10 @@
 layout: "ssg-theme-astro/layouts/main.astro"  # This line of code should remain unchanged.
 tag: "GTM-"
 title: "AnAn's Deli Kitchen 安安麵食 - Best Food Today"
-favicon: "logo.ico"
+favicon: "anan.ico"
 logo: "logo.png"
 primaryColor: "#C2232E" # logo color
-secondaryColor: ""
+secondaryColor: "#F2E0D9"
 primaryColorScheme: "dark" # dark | light
 secondaryColorScheme: ""
 cuid: ""
