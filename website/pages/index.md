@@ -1,6 +1,7 @@
 ---
 layout: "ssg-theme-astro/layouts/main.astro"  # This line of code should remain unchanged.
-tag: "GTM-"
+tag: ""
+googleSiteVerification: "q9w4SCHFMVCxmpLF1t08N8UAU_VxwOQ61OvF8QshKVo"
 title: "AnAn's Deli Kitchen 安安麵食 - Best Food Today"
 favicon: "anan.ico"
 logo: "logo.png"

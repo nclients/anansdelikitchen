@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /$
+Allow: /zh-cn/$
+Allow: /gallery/
+Disallow: /
+Sitemap: https://anansdelikitchen.com/sitemap.xml
