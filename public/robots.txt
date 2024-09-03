@@ -2,5 +2,7 @@ User-agent: *
 Allow: /$
 Allow: /zh-cn/$
 Allow: /gallery/
+Allow: /robots.txt
+Allow: /sitemap.xml
 Disallow: /
 Sitemap: https://anansdelikitchen.com/sitemap.xml

@@ -39,7 +39,7 @@ header:
   menu:
     - { text: "首頁", link: "/zh-cn" }
     - { text: "菜品展示", link: "#gallery" }
-    # - { text: "About Us", link: "#about-us" }
+    - { text: "關於我們", link: "#about-us" }
     - { text: "聯繫我們", link: "#contact-us" }
     - { text: "English", link: "/" }
   addOrderOnlineBtn: false
@@ -66,10 +66,11 @@ sections:
     bgColor: "#000000"
     bgOpacity: "0.35" # 0~1
     title: 
-      - "AnAn's Deli Kitchen 安安麵食"
+      - "AnAn's Deli Kitchen"
+      - "安安麵食"
     titleColor: "#ffffff"
     description: 
-      - "麵條, 拉麵, 湯."
+      - "麵條、拉麵、湯"
       - "從我們豐盛的台灣牛肉麵到美味的日本慢燉豬骨拉麵，每一道菜品都精心製作，選材講究。探索我們的菜單，發現您新的最愛吧！"
     descriptionColor: "#ffffff"
     # title2: 
@@ -240,14 +241,14 @@ sections:
     noMarginTop: true
     id: "contact-us"
     mode: "fullWidth" # full-width | ...
-    url: "https://maps.app.goo.gl/wCyNbCLy16wDMimT6"
-    iframeUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.432834153359!2d-122.4960347242445!3d37.77989497198408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808587633b67090b%3A0x9d63275356723aab!2sAnAn&#39;s%20Deli%20Kitchen!5e0!3m2!1sen!2sjp!4v1722891668538!5m2!1sen!2sjp"
+    url: "https://maps.app.goo.gl/vPhwgQCF3uowqNrYA"
+    iframeUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.432834153387!2d-122.49603472378126!3d37.779894971984156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808587633b67090b%3A0x9d63275356723aab!2sAnAn&#39;s%20Deli%20Kitchen!5e0!3m2!1szh-TW!2sus!4v1725374402309!5m2!1szh-TW!2sus"
     addTelBtn: true
     tel: ""
     telInsteadText: "電話：628-588-2246"
     tel2: "" # if there are two phone numbers
     tel2InsteadText: ""
-    getDirectionBtnInsteadText: "導航去餐廳"
+    getDirectionBtnInsteadText: "前去餐廳"
  
 #  # The modal will only appear once within 30 minutes."
 #   - type: "modal" 
@@ -270,20 +271,21 @@ footer:
   mode: 1 # 1
   noMarginTop: true
   bgImg: "店內一角 Interior of AnAns Deli Kitchen.webp"
-  bgColor: "#ffffff"
-  bgOpacity: "0.85" # 0~1
-  textColor: "#000000" # default white
+  bgColor: "#000"
+  bgOpacity: "0.7" # 0~1
+  textColor: "#fff" # default white
 
   openingHoursInsteadText: "營業時間"
   openingHours: 
-    - "週一 ～ 週日：11:00 AM - 8:45 PM"
+    - "週一 ～ 週日"
+    - "11:00 AM - 8:45 PM"
   isLogo: false
   logoSize: 60
  
   menu:
     - { text: "首頁", link: "/zh-cn" }
     - { text: "菜品展示", link: "#gallery" }
-    # - { text: "About Us", link: "#about-us" }
+    - { text: "關於我們", link: "#about-us" }
     - { text: "聯繫我們", link: "#contact-us" }
     - { text: "English", link: "/" }
 
@@ -299,14 +301,15 @@ footer:
   yelpLink: ""
 
   acceptedPaymentMethodsInsteadText: "支付方式"
-  paymentMethod: "mastercard,cash,visa" # alipay,applePay,cash,discover,googlePay,jcb,maestro,mastercard,stripe,unionPay,visa,weChatPay,payPal
+  paymentMethod: "cash,visa,amex,alipay,mastercard" # alipay,applePay,cash,discover,googlePay,jcb,maestro,mastercard,stripe,unionPay,visa,weChatPay,payPal
 
   # at a minimum, please make sure to include the meta description.
 seo:
-  metaDescription: "歡迎來到AnAn's Deli Kitchen 安安麵食，您在舊金山外里士滿街區享用正宗美味中餐的首選目的地。我們專注於提供高品質手工菜餚，採用最優質的食材，提供舒適的用餐體驗，無論是拉麵、餃子還是甜點，我們都致力於為您提供美味佳餚。"
+  metaTitle: "AnAn's Deli Kitchen 安安麵食 | 舊金山里士滿區的正宗中餐"
+  metaDescription: "在舊金山里士滿區的AnAn's Deli Kitchen 安安麵食，品嚐手工製作的拉麵、餃子和甜點，享受舒適的用餐環境。"
   keywords: ""
   img: ""
-  thisPageUrl: ""
+  canonicalHref: "https://anansdelikitchen.com" # https://example.com/
   locale: "zh_TW" # zh_TW | zh_CN
 ---
 <!-- hello world -->

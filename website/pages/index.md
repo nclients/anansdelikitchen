@@ -40,7 +40,7 @@ header:
   menu:
     - { text: "Home", link: "/" }
     - { text: "Gallery", link: "#gallery" }
-    # - { text: "About Us", link: "#about-us" }
+    - { text: "About Us", link: "#about-us" }
     - { text: "Contact Us", link: "#contact-us" }
     - { text: "中文", link: "/zh-cn" }
   addOrderOnlineBtn: false
@@ -86,7 +86,7 @@ sections:
     addTableReservationBtn: false
     tableReservationBtnInsteadText: ""
 
-    btn1Text: "Online Oder"
+    btn1Text: "Online Order"
     btn1Href: "https://www.bestfoodtodayus.com/ordering/?restaurant_uid=229221c8-8e50-4b68-9841-f77b2b1a5d6e" 
     btn2Text: "" 
     btn2Href: "" 
@@ -226,7 +226,7 @@ sections:
   - type: "textBlock" 
     noMarginTop: false
     id: ""
-    bgImg: "gallery/拿鐵奶咖啡 Latte Coffee.webp"
+    bgImg: "/拿鐵奶咖啡 Latte Coffee.webp"
     bgColor: "#000"
     bgOpacity: "0.6" # 0~1
     title: 
@@ -271,20 +271,21 @@ footer:
   mode: 1 # 1
   noMarginTop: true
   bgImg: "店內一角 Interior of AnAns Deli Kitchen.webp"
-  bgColor: "#ffffff"
-  bgOpacity: "0.85" # 0~1
-  textColor: "#000000" # default white
+  bgColor: "#000"
+  bgOpacity: "0.7" # 0~1
+  textColor: "#ffff" # default white
 
   openingHoursInsteadText: ""
   openingHours: 
-    - "Mon - Sun: 11:00 AM - 8:45 PM"
+    - "Mon ~ Sun"
+    - "11:00 AM - 8:45 PM"
   isLogo: false
   logoSize: 60
  
   menu:
     - { text: "Home", link: "/" }
     - { text: "Gallery", link: "#gallery" }
-    # - { text: "About Us", link: "/#about-us" }
+    - { text: "About Us", link: "/#about-us" }
     - { text: "Contact Us", link: "/#contact-us" }
     - { text: "中文", link: "/zh-cn" }
 
@@ -299,16 +300,17 @@ footer:
   yelp: false
   yelpLink: ""
 
-  acceptedPaymentMethodsInsteadText: ""
-  paymentMethod: "" # alipay,applePay,cash,discover,googlePay,jcb,maestro,mastercard,stripe,unionPay,visa,weChatPay,payPal
+  acceptedPaymentMethodsInsteadText: "Accepted Payment Methods"
+  paymentMethod: "cash,visa,amex,alipay,mastercard" # alipay,applePay,cash,discover,googlePay,jcb,maestro,mastercard,stripe,unionPay,visa,weChatPay,payPal
 
   # at a minimum, please make sure to include the meta description.
 # optional
 seo:
-  metaDescription: "Welcome to AnAn's Deli Kitchen, your top destination for authentic and delicious Chinese food in the Richmond District of San Francisco. We specialize in high-quality handcrafted dishes made with the finest ingredients, providing a comfortable dining experience. Whether you're here to enjoy ramen, dumplings, or desserts, we are committed to delivering delightful meals."
+  metaTitle: "AnAn's Deli Kitchen 安安麵食 | Authentic Chinese Cuisine in San Francisco's Richmond District"
+  metaDescription: "Discover AnAn's Deli Kitchen 安安麵食 in San Francisco's Richmond District. Enjoy handcrafted ramen, dumplings, and desserts in a cozy setting."
   keywords: ""
   img: ""
-  thisPageUrl: ""
+  canonicalHref: "https://anansdelikitchen.com" # https://example.com/
   locale: "en_US" # zh_TW | zh_CN
 ---
 <!-- hello world -->
