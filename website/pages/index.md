@@ -28,8 +28,8 @@ tel: "628-588-2246"
 
 # header
 header:
-  logoSize: 95
-  logoSizeOnMobile: 75
+  logoSize: 65
+  logoSizeOnMobile: 50
   textAfterLogo: 
     text: ""
     size: 20
@@ -306,7 +306,7 @@ footer:
   # at a minimum, please make sure to include the meta description.
 # optional
 seo:
-  metaTitle: "AnAn's Deli Kitchen 安安麵食 | Authentic Chinese Cuisine in San Francisco's Richmond District"
+  metaTitle: "AnAn's Deli Kitchen 安安麵食 | Authentic Chinese Cuisine"
   metaDescription: "Discover AnAn's Deli Kitchen 安安麵食 in San Francisco's Richmond District. Enjoy handcrafted ramen, dumplings, and desserts in a cozy setting."
   keywords: ""
   img: ""

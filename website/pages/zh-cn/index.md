@@ -1,6 +1,6 @@
 ---
 layout: "ssg-theme-astro/layouts/main.astro"  # This line of code should remain unchanged.
-tag: "GTM-"
+tag: ""
 title: "AnAn's Deli Kitchen 安安麵食 - Best Food Today"
 favicon: "anan.ico"
 logo: "logo.png"
@@ -27,8 +27,8 @@ tel: "628-588-2246"
 
 # header
 header:
-  logoSize: 90
-  logoSizeOnMobile: 75
+  logoSize: 65
+  logoSizeOnMobile: 50
   textAfterLogo: 
     text: ""
     size: 20
@@ -309,7 +309,7 @@ seo:
   metaDescription: "在舊金山里士滿區的AnAn's Deli Kitchen 安安麵食，品嚐手工製作的拉麵、餃子和甜點，享受舒適的用餐環境。"
   keywords: ""
   img: ""
-  canonicalHref: "https://anansdelikitchen.com" # https://example.com/
-  locale: "zh_TW" # zh_TW | zh_CN
+  canonicalHref: "https://anansdelikitchen.com/zh-cn/" # https://example.com/
+  locale: "zh_CN" # zh_TW | zh_CN
 ---
 <!-- hello world -->

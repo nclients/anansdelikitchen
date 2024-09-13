@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-       xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+       xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" >
     
       <url>
         <loc>https://anansdelikitchen.com/</loc>
-        <lastmod>2024-09-03</lastmod>
+        <lastmod>2024-09-13</lastmod>
         <image:image>
           <image:loc>https://anansdelikitchen.com/gallery/001_手抓餅__Beijing Pan Cake.webp</image:loc>
           <image:title>手抓餅  Beijing Pan Cake</image:title>
@@ -45,10 +45,51 @@
           <image:loc>https://anansdelikitchen.com/gallery/波霸奶茶__Boba Milk Tea.webp</image:loc>
           <image:title>波霸奶茶  Boba Milk Tea</image:title>
         </image:image>
+             
       </url>
       <url>
         <loc>https://anansdelikitchen.com/zh-cn/</loc>
-        <lastmod>2024-09-03</lastmod>
-        
+        <lastmod>2024-09-13</lastmod>
+        <image:image>
+          <image:loc>https://anansdelikitchen.com/gallery/001_手抓餅__Beijing Pan Cake.webp</image:loc>
+          <image:title>手抓餅  Beijing Pan Cake</image:title>
+        </image:image><image:image>
+          <image:loc>https://anansdelikitchen.com/gallery/002_刺猬紅豆沙包__Porcupine Red Bean Buns.webp</image:loc>
+          <image:title>刺猬紅豆沙包  Porcupine Red Bean Buns</image:title>
+        </image:image><image:image>
+          <image:loc>https://anansdelikitchen.com/gallery/003_東北豬肉大包__Manchuria Pork Buns.webp</image:loc>
+          <image:title>東北豬肉大包  Manchuria Pork Buns</image:title>
+        </image:image><image:image>
+          <image:loc>https://anansdelikitchen.com/gallery/004_蔥油餅__Onion Pan Cakes.webp</image:loc>
+          <image:title>蔥油餅  Onion Pan Cakes</image:title>
+        </image:image><image:image>
+          <image:loc>https://anansdelikitchen.com/gallery/005_日本叉燒拉麵 __Japanese BBQ Pork Ramen.webp</image:loc>
+          <image:title>日本叉燒拉麵   Japanese BBQ Pork Ramen</image:title>
+        </image:image><image:image>
+          <image:loc>https://anansdelikitchen.com/gallery/006_牛肉拉麵__Japanese Beef Ramen.webp</image:loc>
+          <image:title>牛肉拉麵  Japanese Beef Ramen</image:title>
+        </image:image><image:image>
+          <image:loc>https://anansdelikitchen.com/gallery/007_紅燒牛肉麵__Taiwan Beef Noodle Soup.webp</image:loc>
+          <image:title>紅燒牛肉麵  Taiwan Beef Noodle Soup</image:title>
+        </image:image><image:image>
+          <image:loc>https://anansdelikitchen.com/gallery/008_豬腩拉麵__Japanese Slow Cook Pork Ramen.webp</image:loc>
+          <image:title>豬腩拉麵  Japanese Slow Cook Pork Ramen</image:title>
+        </image:image><image:image>
+          <image:loc>https://anansdelikitchen.com/gallery/009_東北豬肉水餃 __Manchuria Pork Dumplings.webp</image:loc>
+          <image:title>東北豬肉水餃   Manchuria Pork Dumplings</image:title>
+        </image:image><image:image>
+          <image:loc>https://anansdelikitchen.com/gallery/010_肉夾饃__Desert Sandwiches.webp</image:loc>
+          <image:title>肉夾饃  Desert Sandwiches</image:title>
+        </image:image><image:image>
+          <image:loc>https://anansdelikitchen.com/gallery/011_猶太包__Lox.webp</image:loc>
+          <image:title>猶太包  Lox</image:title>
+        </image:image><image:image>
+          <image:loc>https://anansdelikitchen.com/gallery/拿鐵奶咖啡__Latte Coffee.webp</image:loc>
+          <image:title>拿鐵奶咖啡  Latte Coffee</image:title>
+        </image:image><image:image>
+          <image:loc>https://anansdelikitchen.com/gallery/波霸奶茶__Boba Milk Tea.webp</image:loc>
+          <image:title>波霸奶茶  Boba Milk Tea</image:title>
+        </image:image>
+             
       </url>
   </urlset>
