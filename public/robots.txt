@@ -1,7 +1,7 @@
 User-agent: *
 Disallow: /
 Allow: /$
-Allow: /zh-cn/$
+Allow: /zh-cn$
 Allow: /gallery/
 Allow: /robots.txt
 Allow: /sitemap.xml
