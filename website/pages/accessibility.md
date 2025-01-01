@@ -36,9 +36,9 @@ header:
   menuTextColor: "#000000"
   menu:
     - { text: "Home", link: "/" }
-    - { text: "Gallery", link: "#gallery" }
-    - { text: "About Us", link: "#about-us" }
-    - { text: "Contact Us", link: "#contact-us" }
+    - { text: "Gallery", link: "/#gallery" }
+    - { text: "About Us", link: "/#about-us" }
+    - { text: "Contact Us", link: "/#contact-us" }
     - { text: "中文", link: "/zh-cn" }
   addOrderOnlineBtn: false
   orderOnlineBtnInsteadText: ""
@@ -72,7 +72,7 @@ footer:
 
   menu:
     - { text: "Home", link: "/" }
-    - { text: "Gallery", link: "#gallery" }
+    - { text: "Gallery", link: "/#gallery" }
     - { text: "About Us", link: "/#about-us" }
     - { text: "Contact Us", link: "/#contact-us" }
     - { text: "中文", link: "/zh-cn" }
