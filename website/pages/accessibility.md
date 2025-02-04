@@ -11,6 +11,7 @@ primaryColorScheme: "dark" # dark | light
 secondaryColorScheme: ""
 tel: "1-628-588-2246"
 address: "6900 Geary Blvd, San Francisco, CA 94121"
+creationDate: 1 Jan 2025
 
 # banner:
 #   text:
@@ -25,8 +26,8 @@ address: "6900 Geary Blvd, San Francisco, CA 94121"
 
 # header
 header:
-  logoSize: 65
-  logoSizeOnMobile: 50
+  logoSize: 100
+  logoSizeOnMobile: 90
   textAfterLogo:
     text: ""
     size: 20

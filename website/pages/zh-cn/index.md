@@ -27,8 +27,8 @@ tel: "628-588-2246"
 
 # header
 header:
-  logoSize: 65
-  logoSizeOnMobile: 50
+  logoSize: 100
+  logoSizeOnMobile: 90
   textAfterLogo:
     text: ""
     size: 20
